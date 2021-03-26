@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* header*/
+.login{
+	text-align:center;
+	background:#006;
+}
+.logsign{
+	font-size:16px;
+	color:#EEE;
+	font-weight:bold;
+}
+.banner{
+	background-color:#0FF;
+	height:60px;
+	vertical-align:middle;
+}
+.logo_sweetstore{
+	font-size:26px;
+	font-weight:bold;
+	color:#003;
+}
+
+.datmua{
+	text-align:center;
+}

@@ -1,0 +1,106 @@
+.container-fluid {
+  font-family: Arial, Helvetica, sans-serif; }
+  .container-fluid .banner {
+    background-color: #07383f;
+    color: white;
+    height: auto;
+    text-align: center; }
+    .container-fluid .banner .logo img {
+      padding-top: 15px; }
+    .container-fluid .banner .namestore {
+      font-size: 2.5vw;
+      font-style: italic;
+      font-weight: bold; }
+      .container-fluid .banner .namestore a {
+        text-decoration: overline;
+        color: #f87046;
+        text-shadow: 1px 0px 0px;
+        font-family: "Georgia", Times New Roman, Times, serif; }
+    .container-fluid .banner .search {
+      padding-bottom: 15px; }
+  .container-fluid .menungang .navbar-header {
+    background-color: #07383f;
+    color: white; }
+    .container-fluid .menungang .navbar-header a {
+      color: #f87046;
+      padding: 5px 5px 5px 20px; }
+  .container-fluid .menungang .collapse {
+    background-color: #07383f; }
+    .container-fluid .menungang .collapse ul > li > a {
+      color: #f87046;
+      font-size: 18px; }
+    .container-fluid .menungang .collapse ul > li > a:hover {
+      background-color: white;
+      color: #07383f; }
+  .container-fluid .content {
+    margin-left: 0px; }
+    .container-fluid .content .sp {
+      padding: 0px;
+      margin: 5px;
+      background: #eaeeee; }
+      .container-fluid .content .sp .namecake {
+        text-align: center;
+        color: #086574; }
+      .container-fluid .content .sp .price {
+        text-align: center;
+        color: grey;
+        font-size: 16px; }
+  .container-fluid .footer {
+    background-color: #07383f;
+    color: white;
+    text-align: center; }
+
+.container .tenDanhMucSP {
+  color: #f87046;
+  font-weight: bold; }
+.container .danhMucSP {
+  color: #07383f;
+  font-weight: bold;
+  padding: 0px;
+  font-size: 17px; }
+  .container .danhMucSP a {
+    text-decoration: none; }
+  .container .danhMucSP li:hover, .container .danhMucSP li::selection {
+    text-decoration: none;
+    background-color: #dba86d;
+    color: whitesmoke; }
+
+.error {
+  color: red;
+  font-size: 12px; }
+
+.card {
+  font-family: arial;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  margin: 5px; }
+  .card .price {
+    color: grey;
+    font-size: 18px; }
+  .card button {
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px; }
+  .card button:hover {
+    opacity: 0.7; }
+
+@media (max-width: 426px) {
+  .container .card {
+    width: 46%;
+    float: left; }
+
+  .content .sp {
+    width: 46%;
+    float: left; } }
+@media (min-width: 768px) {
+  .container .card,
+  .content .sp {
+    width: 23%; } }
+
+/*# sourceMappingURL=myStyle.css.map */

@@ -1,0 +1,147 @@
+.container-fluid {
+    font-family: Arial, Helvetica, sans-serif;
+    .banner {
+        background-color: rgb(7, 56, 63);
+        color: white;
+        height: auto;
+        text-align: center;
+        .logo {
+            img {
+                padding-top: 15px;
+            }
+        }
+        .namestore {
+            font-size: 2.5vw;
+            font-style: italic;
+            font-weight: bold;
+            a {
+                text-decoration: overline;
+                color: rgb(248, 112, 70);
+                text-shadow: 1px 0px 0px;
+                font-family: "Georgia", Times New Roman, Times, serif;
+            }
+        }
+        .search {
+            padding-bottom: 15px;
+        }
+    }
+    .menungang {
+        // position: -webkit-sticky;
+        // position: sticky;
+        // top:0;
+        .navbar-header {
+            background-color: rgb(7, 56, 63);
+            color: white;
+            a {
+                color: rgb(248, 112, 70);
+                padding: 5px 5px 5px 20px;
+            }
+        }
+        .collapse {
+            background-color: rgb(7, 56, 63);
+            ul > li > a {
+                color: rgb(248, 112, 70);
+                font-size: 18px;
+            }
+            ul > li > a:hover {
+                background-color: white;
+                color: rgb(7, 56, 63);
+            }
+        }
+    }
+    //Trang noi dung trang chu
+    .content{   
+        margin-left: 0px;   
+        .sp {
+            padding: 0px;
+            margin: 5px;
+            background: rgb(234, 238, 238);
+            .namecake {
+                text-align: center;
+                color: rgb(8, 101, 116);
+            }
+            .price {
+                text-align: center;
+                color: grey;
+                font-size: 16px;
+            }
+        }
+    }
+    .footer{
+        background-color: rgb(7, 56, 63);
+        color:white;
+        text-align: center;
+    }
+}
+//Trang san pham
+.container {
+    .tenDanhMucSP {
+        color: rgb(248, 112, 70);
+        font-weight: bold;
+    }
+    .danhMucSP {
+        color: rgb(7, 56, 63);
+        font-weight: bold;
+        padding: 0px;
+        font-size: 17px;
+        a {
+            text-decoration: none;
+        }
+        li:hover,li::selection {
+            text-decoration: none;
+            background-color: rgb(219, 168, 109);
+            color: whitesmoke;
+        }
+    }
+}
+//Bat loi form
+.error {
+    color: red;
+    font-size: 12px;
+}
+//Trang san pham
+.card {
+    font-family: arial;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    margin: 5px;
+    .price {
+        color: grey;
+        font-size: 18px;
+    }
+    button {
+        border: none;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+    button:hover {
+        opacity: 0.7;
+    }
+}
+
+@media (max-width: 426px) {
+    .container {
+        .card {
+            width: 46%;
+            float: left;
+        }
+    }
+    .content {
+        .sp {
+            width: 46%;
+            float: left;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .container .card,
+    .content .sp {
+        width: 23%;
+    }
+}
